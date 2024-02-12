@@ -1,0 +1,131 @@
+.container {
+  width: 70%;
+  margin: auto;
+  text-align: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  overflow: none;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8vw;
+  color: #4ECCA3;
+  height: 25vh;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+  font-size: x-large;
+}
+.scr1{
+  position: relative;
+  top:20px;
+  background-color: #EEEEEE;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  margin-top: 2px;
+  overflow: none;
+  border: 2px solid red;
+  color:black;
+  font-weight: bolder;
+  font-size: 40px;
+  text-align: center;
+}
+.scr2{
+  position: relative;
+  top:20px;
+  background-color: #EEEEEE;
+  padding: 10px;
+  height: 30px;
+  width: 30px;
+  margin-top: 2px;
+  overflow: none;
+  border: 2px solid red;
+  color:black;
+  font-weight: bolder;
+  font-size: 40px;
+  text-align: center;
+}
+
+.box{
+  
+  border: 2px solid rebeccapurple;
+  display: inline-flex;
+  visibility: hidden;
+}
+.reset{
+  color:  rgb(236, 248, 249);;
+  background-color: red;
+  border-radius: 20%;
+  padding: 2vw 2vw;
+  height: 2vw;
+  width: 10vw;
+  font-size: 3vw;
+  cursor: pointer;
+  margin-right: 7vw;
+  margin-bottom: 10vh;
+  align-self: flex-end;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+.main{
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  gap:20px;
+}
+
+@media (max-width:1200px) {
+  .main{
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+.reset{
+  color:  rgb(236, 248, 249);;
+  background-color: red;
+  border-radius: 20%;
+  padding: 2vw 2vw;
+  height: 7vw;
+  width: 20vw;
+  font-size: 3vw;
+  cursor: pointer;
+  margin-right: 7vw;
+  margin-bottom: 100px;
+  align-self: center;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+}
+
+}
